@@ -19,7 +19,7 @@ void loop() {
 
 void expandBellows() {
   digitalWrite(SOLENOID, HIGH);
-  delay(START_WAIT);
+  delay(2000);
   unsigned long starttime = millis();
   unsigned long endtime = starttime;
   digitalWrite(MC_DIRECTION, HIGH);
@@ -28,6 +28,6 @@ void expandBellows() {
     endtime = millis();
   }
   digitalWrite(MC_ENABLE, LOW);
-  delay(START_WAIT);
+  delay(2000);
   digitalWrite(SOLENOID, LOW);
 }
