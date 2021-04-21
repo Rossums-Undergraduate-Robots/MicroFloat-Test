@@ -9,12 +9,13 @@ void setup() {
   pinMode(MC_ENABLE, OUTPUT);
   pinMode(MC_DIRECTION, OUTPUT);
 
+  delay(5000);
+  contractBellows();
+
 }
 
 void loop() {
-  delay(5000);
-  contractBellows();
-  delay(5000);
+
 
 }
 

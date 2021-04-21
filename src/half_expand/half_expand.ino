@@ -8,16 +8,12 @@ void setup() {
   pinMode(SOLENOID, OUTPUT);
   pinMode(MC_ENABLE, OUTPUT);
   pinMode(MC_DIRECTION, OUTPUT);
+  delay(5000);
+  expandBellows();
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  delay(5000);
-  expandBellows();
-  delay(5000);
-  
-  
 
 }
 
